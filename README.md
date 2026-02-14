@@ -10,17 +10,11 @@ Convert images to ASCII art directly from your terminal.
 	git clone <repo-url>
 	cd image_to_ascii
 	```
-3. Build the project:
-	```sh
-	cargo build --release
-	```
-4. The binary will be in the `target/release` directory.
-
 
 ## Usage
 
 ```sh
-img2ascii <input_image>
+cargo run -- <input_image>
 ```
 
 - `<input_image>`: Path to the image file you want to convert. (Relative to [Cargo.toml](/Cargo.toml))
