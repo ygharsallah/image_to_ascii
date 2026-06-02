@@ -26,6 +26,3 @@ cargo run -- <input_image>
 
 ## License
 [MIT](/LICENSE)
-
----
-Made for the 30 Tage 30 CLIs challenge.
